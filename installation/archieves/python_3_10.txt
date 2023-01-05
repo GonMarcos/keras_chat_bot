@@ -1,0 +1,9 @@
+A collection of dependancies that are required to run the application.
+Currently supported version of python are:
+• Python 3.10
+
+Current version of CUDA is:
+• CUDA 11.2
+
+Current version of cuDNN is:
+• cuDNN 8.1

@@ -1,5 +1,5 @@
 def train():
-    import json, pickle, nltk, random
+    import json, pickle, nltk, random, os
     import numpy as np
     
     from nltk.stem import WordNetLemmatizer
@@ -35,6 +35,9 @@ def train():
 
     # sort classes
     classes = sorted(list(set(classes)))
+
+    if not os.path.exists("src/training/trained_data"):
+        os.mkdir("src/training/trained_data")
 
     pickle.dump(words,open('src/training/trained_data/words.pkl', 'wb'))
     pickle.dump(classes,open('src/training/trained_data/classes.pkl', 'wb'))

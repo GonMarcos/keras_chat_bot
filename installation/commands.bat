@@ -13,7 +13,7 @@ IF "%1"=="install" (
     REM Used to install numpy
     pip install numpy==1.23.5
     REM Used to install tensorflow for the gpu, but requires cuda and cudnn which are installed later
-    REM pip install tensorflow
+    pip install tensorflow==2.10.1
     pip install tensorflow-gpu==2.10.1
     REM Used to install keras used for the neural network
     pip install keras==2.10.0

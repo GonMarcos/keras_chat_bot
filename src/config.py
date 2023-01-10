@@ -130,3 +130,4 @@ class Config:
         network = NetworkConfig()
 
 config = Config()
+network = NetworkConfig() if config.exec_mudule == "api" else None

@@ -18,13 +18,28 @@
         },
         {
             "tag": "birthday",
-            "patterns": ["when is my birthday", "what is my birthday", "when as i born"],
+            "patterns": ["when is my birthday", "what is my birthday", "when was i born"],
             "responses": ["14/07/1997"]
         },
         {
             "tag": "contact",
             "patterns": ["how get in touch with you"],
             "responses": ["Email: mg.vn@outlook.com"]
+        },
+        {
+            "tag": "language",
+            "patterns": ["wich kind of language you code","how many languages you use to code"],
+            "responses": ["i code with javascript and python", "javascript and python are the languages i know"]
+        },
+        {
+            "tag": "speak",
+            "patterns": ["how many languages do you speak","do you speak any language besides your native one"],
+            "responses": ["besides portuguease i speak english and basic french"]
+        },
+        {
+            "tag": "goals",
+            "patterns": ["What are your career goals", "What do you have in mind for the future"],
+            "responses": ["earn new skills and and go through new technologies"]
         }
     ]
 }

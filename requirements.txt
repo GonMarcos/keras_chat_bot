@@ -4,3 +4,4 @@ nltk==3.8
 numpy==1.23.5
 patool==1.12
 tensorflow==2.10.1
+pydantic==1.10.4

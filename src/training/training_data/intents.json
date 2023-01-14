@@ -40,6 +40,17 @@
             "tag": "goals",
             "patterns": ["What are your career goals", "What do you have in mind for the future"],
             "responses": ["earn new skills and and go through new technologies"]
+        },
+        {
+            "tag": "you",
+            "patterns": ["Tell me about you", "i wanna know more about you", "what about you is interesting to us to know"],
+            "responses": ["My name is Marcos, i'm from Brazil, 25 years old and i've been learning JavaScript since 2022. The languages that i speak are Portuguease and English."]
+        },
+        {
+            "tag": "skills",
+            "patterns": ["Tell me about you", "i wanna know more about you", "what about you is interesting to us to know"],
+            "responses": ["My name is Marcos, i'm from Brazil, 25 years old and i've been learning JavaScript since 2022. The languages that i speak are Portuguease and English."]
         }
+
     ]
 }

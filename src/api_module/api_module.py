@@ -9,7 +9,7 @@ from src.api_module.routes.error import error_router
 def api_handler():
     app = network.app
     asyncio_config = Config()
-    asyncio_config.bind = ["localhost:80"]
+    asyncio_config.bind = [network.settings.host_address]
     app.include_router(api_router)
     app.include_router(error_router)
     asyncio.run(serve(app, asyncio_config))

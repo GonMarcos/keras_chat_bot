@@ -16,6 +16,7 @@ class NetworkConfig():
             web_scheme: str = "http"
             address: str = "127.0.0.1"
             port: int = 8000
+            host_address = f"{address}:{port}"
         
         settings = Settings()
         app = FastAPI(title=settings.app_name)

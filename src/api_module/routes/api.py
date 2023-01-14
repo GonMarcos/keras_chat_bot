@@ -11,8 +11,8 @@ class ChatStruct(BaseModel):
     message:str
     user: Optional[str]
 
-@api_router.get("/api/chat")
-@api_router.get("/api/chat/",include_in_schema=False)
+@api_router.post("/api/chat")
+@api_router.post("/api/chat/",include_in_schema=False)
 async def chat(request:Request,data:ChatStruct):
     response = chatbot_response(data.message)
-    return { "bot response": f"{response}" }
+    return { "response": f"{response}" }
